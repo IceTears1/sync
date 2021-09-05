@@ -20,11 +20,11 @@ cron "0 0 * * *" script-path=jd_car_exchange.js, tag=京东汽车兑换
 
 ===============Surge=================
 京东汽车兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=jd_car_exchange.js
-
+asdasdds
 ============小火箭=========
 京东汽车兑换 = type=cron,script-path=jd_car_exchange.js, cronexpr="0 0 * * *", timeout=3600, enable=true
  */
-const $ = new Env('京东汽车兑换');
+const $ = new Env('京东汽车兑换a');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
